@@ -1,0 +1,40 @@
+:root {
+	--font-sans: Roboto, Roboto Fallback;
+	/* --font-mono: here if you got it... */
+
+	--background: #ffffff;
+	--foreground: #00171f;
+
+	--popover: #007ea7;
+	--popover-foreground: #00171f;
+
+	--secondary: #bdbdbd;
+	--secondary-foreground: #000c2d;
+
+	--muted: #bebebe;
+	--muted-foreground: #00171f7d;
+
+	--border: #d9d9d9;
+
+	--accent: #00a8e8;
+	--accent-foreground: #ffffff;
+}
+
+.dark {
+	--background: #fafafa;
+	--foreground: #000c2d;
+
+	--popover: #ffffff;
+	--popover-foreground: #000c2d;
+
+	--secondary: #bdbdbd;
+	--secondary-foreground: #fafafa;
+
+	--muted: #fafafa;
+	--muted-foreground: #000c2d60;
+
+	--border: hsl(214.3 31.8% 91.4%);
+
+	--accent: #2b8ef1;
+	--accent-foreground: #fafafa;
+}
